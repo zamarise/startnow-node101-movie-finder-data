@@ -1,13 +1,13 @@
 # Movie Finder Data
 > Uses the Express framework to build a server that can talk to another server and cache the results.
 
-This was my sixth project at Origin Code Academy. This server was created using NodeJS and Express. To log all incoming requests I used the morgan logging library. I made requests using the axios library.
+This was my sixth project at Origin Code Academy. This server was created using NodeJS, Express, morgan, and axios. 
 
 ![](movie-finder-data.png)
 
 ## Approach
 
-This app demonstrates running a server that can talk to another server using NodeJS with the Express framework. The middleware used for this app was [morgan](https://github.com/expressjs/morgan) and [axios](https://www.npmjs.com/package/axios). Morgan is an HTTP request logger middleware for Node.js. Axios is a promise based HTTP client for browser and Node.js.
+This app demonstrates running a server that can talk to another server using NodeJS with the Express framework. The middleware used for this app was [morgan](https://github.com/expressjs/morgan) and [axios](https://www.npmjs.com/package/axios). Morgan is an HTTP request logger for Node.js and I used it to log all incoming requests. Axios is a promise based HTTP client for browser and Node.js, and requests were made using this library.
 
 ## Installation
 
